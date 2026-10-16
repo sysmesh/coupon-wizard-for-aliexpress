@@ -12,7 +12,7 @@ promo codes shared by the community (r/AliExpressCode), keeps only the ones vali
 order size, and tries them for you one after another — keeping whichever gives you the
 lowest price. If none work, it says so plainly: *"No coupon worked."*
 
-<p align="center"><a href="https://github.com/sysmesh/coupon-wizard-for-aliexpress/releases/latest"><b>Download the latest release</b></a> · Chrome Web Store listing coming soon</p>
+<p align="center"><a href="https://github.com/sysmesh/coupon-wizard-for-aliexpress/releases"><b>Download the latest release</b></a> · Chrome Web Store listing coming soon</p>
 
 ## How it works
 
@@ -37,7 +37,7 @@ back to your cart. Same prices for you; a small commission helps keep the extens
 
 ## Install without the Web Store
 
-1. Download `coupon-wizard-<version>.zip` from the [latest release](https://github.com/sysmesh/coupon-wizard-for-aliexpress/releases/latest) and unzip it.
+1. Download `coupon-wizard-<version>.zip` from the [latest release](https://github.com/sysmesh/coupon-wizard-for-aliexpress/releases) and unzip it.
 2. Open `chrome://extensions`, turn on **Developer mode**, click **Load unpacked**, pick the unzipped folder.
 
 ---

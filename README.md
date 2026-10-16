@@ -23,7 +23,7 @@ no tracking, nothing sent anywhere.
 
 ## Install without the Web Store
 
-Download the zip from the [latest release](https://github.com/sysmesh/coupon-wizard-for-aliexpress/releases/latest),
+Download the zip from the [latest release](https://github.com/sysmesh/coupon-wizard-for-aliexpress/releases),
 unzip it, open `chrome://extensions`, enable **Developer mode**, click **Load unpacked**, pick the folder.
 
 ## Support the developer (optional)
@@ -35,3 +35,8 @@ through the developer's AliExpress affiliate link and straight back to your cart
 
 An independent project by **Gilad Ariav**. Not affiliated with, endorsed by, or connected to AliExpress or
 Alibaba Group; "AliExpress" is a trademark of its owner. Released under the [MIT License](LICENSE).
+
+## Releases
+
+Each version's upload zip is kept in [`releases/`](releases/) and attached to the matching
+[GitHub release](https://github.com/sysmesh/coupon-wizard-for-aliexpress/releases).
