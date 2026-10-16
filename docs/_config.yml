@@ -1,0 +1,4 @@
+title: Coupon Wizard for AliExpress
+description: Finds public AliExpress promo codes for your cart total and tries them until the lowest price wins. Runs 100% in your browser.
+theme: jekyll-theme-cayman
+show_downloads: false
