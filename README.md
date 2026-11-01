@@ -40,3 +40,4 @@ Alibaba Group; "AliExpress" is a trademark of its owner. Released under the [MIT
 
 Each version's upload zip is kept in [`releases/`](releases/) and attached to the matching
 [GitHub release](https://github.com/sysmesh/coupon-wizard-for-aliexpress/releases).
+What changed in each version: [CHANGELOG.md](CHANGELOG.md).
