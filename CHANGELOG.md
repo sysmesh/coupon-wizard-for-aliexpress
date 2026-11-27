@@ -2,6 +2,35 @@
 
 All notable changes to Coupon Wizard for AliExpress.
 
+## 1.2 — 2026-11-27
+
+### Added
+
+- New coupon source: Bee.Deals (bee.deals), a deals forum that posts AliExpress promo
+  codes for one ship-to country. It switches on by itself when the AliExpress ship-to
+  country matches; the popup then asks for permission to read bee.deals until you grant
+  it or answer No thanks. Other countries never contact the site.
+- Only posts published in the last 14 days are read. Codes that readers posted in the
+  comments are tried after all other codes. A post's "valid from … until …" dates are
+  honoured, in the forum's local time.
+- Each source request times out after 15 seconds instead of hanging the popup.
+- If a source, or one of its posts, cannot be read, its codes from the last successful
+  read are kept for up to a day.
+- Fixed slow patterns that could stall on a post with many Capitalised words, or a long
+  run of spaces, blank lines or digits.
+- An end time stated in a post ("until 12.11.2026 at 23:00") is honoured to the minute.
+- Amounts with a thousands separator ("$1,000") are read correctly.
+- Carts in any currency: the total is converted to US dollars with public exchange rates
+  (Exchange Rate API, fallback Frankfurter) before it is compared with a code's minimum
+  spend. Rates stay in memory only and are fetched only when the cart and a code are in
+  different currencies.
+- An end date written with a Hebrew month name is honoured.
+
+### Changed
+
+- Coupon sources are now defined in code only; settings remember just the on/off switch,
+  so new built-in sources reach existing installs.
+
 ## 1.1.1 — 2026-11-02
 
 ### Fixed

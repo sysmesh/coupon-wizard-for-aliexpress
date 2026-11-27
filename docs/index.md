@@ -26,8 +26,9 @@ lowest price. If none work, it says so plainly: *"No coupon worked."*
 
 - No account, no sign-up, no tracking, no analytics.
 - Nothing about your cart or your browsing is ever sent anywhere.
-- The only network requests are to download the public coupon list.
-- Only runs on the AliExpress checkout page. Full details in the [Privacy Policy](privacy.html).
+- The only network requests are to download the public coupon lists and, when your cart and a
+  promo code are in different currencies, a public table of exchange rates.
+- Only tries codes on the AliExpress checkout page. Full details in the [Privacy Policy](privacy.html).
 
 ## Support the developer (optional)
 
